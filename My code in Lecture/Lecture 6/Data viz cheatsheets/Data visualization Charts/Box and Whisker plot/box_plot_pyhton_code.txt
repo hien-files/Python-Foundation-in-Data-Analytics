@@ -1,0 +1,49 @@
+1 - One numerical variable only
+If you have only one numerical variable, you can use this code to get a boxplot with only one group (left chart).
+
+# library & dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+ 
+# Make boxplot for one group only
+sns.boxplot( y=df["sepal_length"] )
+#sns.plt.show()
+##########################################################################
+
+2 - One numerical variable, and several groups
+Let’s say we want to study the distribution of a numerical variable, but for each group separately. Here we study the sepal length of 3 species of flower.
+
+# library & dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+ 
+sns.boxplot( x=df["species"], y=df["sepal_length"] )
+#sns.plt.show()
+###########################################################################
+
+
+3 - Several numerical variable
+Finally we can study the distribution of several numerical variables, let’s say sepal length and width:
+
+# library & dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+ 
+sns.boxplot(data=df.ix[:,0:2])
+#sns.plt.show()
+############################################################################
+
+4. Box plot using seaborn
+
+Use a color palette
+Python proposes several color palettes. You can call RColorBrewer palette like Set1, Set2, Set3, Paired, BuPu… There are also Sequential color palettes like Blues or BuGn_r. Read the great documentation of seaborn to learn more, and check the code below to understand how to apply it.
+
+# library & dataset
+import seaborn as sns
+df = sns.load_dataset('iris')
+ 
+# Use a color palette
+sns.boxplot( x=df["species"], y=df["sepal_length"], palette="Blues")
+#sns.plt.show()
+
+

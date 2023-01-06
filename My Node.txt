@@ -1,0 +1,17 @@
+==================== Create environment ==================
+conda create -n <environment name> python=<python version>
+conda create -n DA python=3.9
+
+==================== Activate/Deactivate ==================
+conda activate <environment> name>
+conda deactivate
+
+==================== Remove environment ==================
+conda remove --name <environment> --all
+
+======================= Used library =====================
+pip install ipykernel
+pip install pandas
+pip install seaborn
+pip install matplotlib
+pip install numpy

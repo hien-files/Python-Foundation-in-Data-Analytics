@@ -1,0 +1,6 @@
+Presentation: https://www.canva.com/design/DAFTsRC0OI8/FI3-aHkwQIxHVAeyTQKj0A/view?utm_content=DAFTsRC0OI8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+Invironment setup note: https://perpetual-centipede-8b6.notion.site/Conda-environment-setup-13c84153f80347f8ba796a5148ecdb9b
+
+pip install ipykernel

@@ -1,0 +1,5 @@
+Bullet chart :
+
+code with example: https://bl.ocks.org/mbostock/4061961
+
+another similiar code with example: https://bl.ocks.org/d3noob/5886992
