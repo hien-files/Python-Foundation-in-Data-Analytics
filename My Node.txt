@@ -9,9 +9,13 @@ conda deactivate
 ==================== Remove environment ==================
 conda remove --name <environment> --all
 
+================== show list environment =================
+conda info --envs
+
 ======================= Used library =====================
 pip install ipykernel
 pip install pandas
 pip install seaborn
 pip install matplotlib
 pip install numpy
+pip install openpyxl
